@@ -1,0 +1,11 @@
+~< extends "section.tex" >~
+
+~< block body >~
+~< for item in items >~
+\cvlistitem{
+    << item.name >>
+    \hfill
+    \href{<<item.url>>}{<< item.id >>}
+}
+~< endfor >~
+~< endblock body >~

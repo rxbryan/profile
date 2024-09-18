@@ -1,0 +1,93 @@
+name:
+  first: Bryan
+  last: Elee
+email: rxbryn@gmail.com
+pdf: /data/cv.pdf
+src: https://github.com/rxbryan/profile
+url: "rxbryan.github.io"
+social:
+  github: rxbryan
+  twitter: Rxbryan6
+  linkedin: rxbryan
+
+# LaTeX formatting
+style: banking # casual, classic, oldstyle, or banking
+color: blue # blue, orange, green, red, purple, grey and black
+color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
+
+order:
+  - [about, NONE]
+  - [education, Education]
+  - [positions, Experience]
+  - [repos, Open Source Repositories]
+  - [skills, Skills]
+  # - [coursework, Courses]
+  # - [NEWPAGE, NONE]
+
+about: |
+  I am a polyglot programmer with a passion for designing and implementing complex software architectures,
+  particularly those involving intricate interactions across multiple domains such as networks and
+   computer systems. I have extensive experience in developing open source software, 
+   and have successfully led the development of Hyperledger Indy read and Ledger resigner. 
+  I am also deeply interested in applied cryptography, with a focus on zero-knowledge proofs and
+   schnorr signatures.
+
+education:
+  - school: University of Port Harcourt
+    degree: B.Sc. in Mathematics and Computer Science
+    dates: 11/2018 -- 12/2023
+
+positions:
+  - place: \href{https://github.com/hyperledger}{Hyperledger}
+    title: Hyperledger Indy Read Replica Implementation
+    inline_detail: "Hyperledger Indy Read Replica Implementation"
+    dates: 06/2024 -- 11/2024
+    details:
+      - ""
+  - place: \href{https://github.com/Cypherock/x1_wallet_firmware}{Cypherock}
+    title: Summer of Bitcoin, Cypherock
+    inline_detail: "Bitcoin Hardware wallet"
+    dates: 05/2024 -- 08/2024
+    details:
+      - implemented nested-segwit support for the cypherock x1 wallet.
+      - developed a proof-of-concept for taproot support
+      - researched Bitcoin HWI support for Cypherock 
+  - place: openSUSE
+    title: Google Summer of Code, openSuse
+    inline_detail: "\\href{https://github.com/packit/packit/pull/2343}{Packit}"
+    dates: 05/2024 -- 09/2024
+    details:
+      - "preliminary OBS building support for packit-cli "
+      - "implement smoke test for `build in-obs`"
+      - "support authoritative source for opensuse distro aliases"
+  - place: \href{https://github.com/LedgerHQ/resigner}{Resigner}
+    title: Summer of Bitcoin, Ledger
+    inline_detail: "General purpose hot signing service for miniscript policies"
+    dates: 05/2023 -- 08/2023
+    details:
+      - "Developed a General purpose hot signing service for miniscript policies."
+      - "Implemented support for spend limit policy in Ledger/Resigner."
+  - place: MetaCall
+    title: Google Summer of Code, MetaCall
+    inline_detail: "\\href{https://github.com/rxbryan/GSOC-2022/blob/master/GSOC_report.md}{MetaCall}"
+    dates: 05/2022 -- 09/2022
+    details:
+      - "Refactored existing Metacall CLI commands into Plugins."
+      - "Implemented support for selectively loading plugins on the initialization or during runtime."
+      - "Refactored the Metacall CLI and enabled support for dynamically discovering loaded commands, and verifying command arguments."
+
+repos:
+  - repo_url: https://github.com/rxbryan/indyread
+    year: 2024
+    desc: Indy Read
+  - repo_url: https://github.com/LedgerHQ/resigner
+    year: 2023
+    desc: Resigner
+
+skills:
+  - title: Programming
+    details: C++, Python, C, Kotlin, JavaScript, Typescript, SQL, HTML, Bash ...
+  - title: DataBases
+    details: PostgreSQL, MongoDB, Redis
+  - title: Messaging
+    details: Kafka, RabbitMQ

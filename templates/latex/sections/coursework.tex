@@ -1,0 +1,14 @@
+~< extends "section.tex" >~
+
+~< block body >~
+Some top-quality courses I've taken: \\
+
+~< for course in items >~
+\cvlistitem{
+    \textbf{<< course.name >>},
+    \textit{<< course.school >>}
+    \hfill
+    << course.semester>>
+}
+~< endfor >~
+~< endblock body >~

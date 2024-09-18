@@ -1,0 +1,18 @@
+~< extends "section.tex" >~
+
+~< block body >~
+
+Content, Link to the talk, and Date: \\
+
+% \begin{longtable}[t]{p{.2in}@{\hspace{1mm}}p{6.2in}@{\hspace{1em}}r}
+  ~< for item in items >~
+    << loop.index >>. \emph{<< item.title >>},
+    ~< if item.url >~
+      \href{<< item.url >>}{<< item.location >>}
+    ~< else >~
+      << item.location >>
+  ~< endif >~
+  \hfill << item.year >> \\
+  ~< endfor >~
+% \end{longtable}
+~< endblock body >~
