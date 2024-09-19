@@ -12,7 +12,7 @@ social:
 
 # LaTeX formatting
 style: banking # casual, classic, oldstyle, or banking
-color: blue # blue, orange, green, red, purple, grey and black
+color: black # blue, orange, green, red, purple, grey and black
 color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
 
 order:
@@ -43,7 +43,10 @@ positions:
     inline_detail: "Hyperledger Indy Read Replica Implementation"
     dates: 06/2024 -- 11/2024
     details:
-      - ""
+      - "Implement Hyperledger Indy Read Replica web service component"
+      - "Setup Release pipeline for the publication of the Indy Read Replica web service
+component artifacts"
+
   - place: \href{https://github.com/Cypherock/x1_wallet_firmware}{Cypherock}
     title: Summer of Bitcoin, Cypherock
     inline_detail: "Bitcoin Hardware wallet"
